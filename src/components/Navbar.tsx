@@ -1,12 +1,45 @@
 import { Menu } from "lucide-react";
 import logo from "../assets/logo_b.svg";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+ // State pour savoir si la navbar doit être affichée ou cachée
+ const [hidden, setHidden] = useState(false);
+
+ // Effect pour écouter les changements de scroll
+ useEffect(() => {
+   let lastScrollY = window.scrollY;
+
+   const handleScroll = () => {
+     if (window.scrollY > lastScrollY) {
+       // Si on descend, on cache la navbar
+       setHidden(true);
+     } else {
+       // Si on remonte, on affiche la navbar
+       setHidden(false);
+     }
+     lastScrollY = window.scrollY;
+   };
+
+   // Ajouter l'événement de scroll
+   window.addEventListener("scroll", handleScroll);
+
+   // Nettoyer l'événement à la destruction du composant
+   return () => {
+     window.removeEventListener("scroll", handleScroll);
+   };
+ }, []);
+
+
+
+
+
+
   return (
-    <div className="navbar fixed top-0 left-0 right-0 z-50 bg-transparent text-white">
+    <div className={`navbar fixed top-0 left-0 right-0 z-50 bg-transparent text-white transition-all duration-900 ${hidden ? "transform -translate-y-full" : ""}`}>
       
       {/* Conteneur Flex principal */}
-      <div className="flex items-center justify-between w-full px-4">
+      <div className="flex items-center justify-between w-full px-4 py-4">
         
         {/* Nom de l'artiste à gauche */}
         <div className="flex-1">
