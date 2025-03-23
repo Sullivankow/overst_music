@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Musique from "./components/Musique"
+import Galerie from "./components/Galerie"
 
 
 
@@ -27,8 +28,15 @@ function App() {
       
 
       <div>
-      <Musique />
-  </div>
+        <Musique />
+      </div>
+      
+      <div>
+        <Galerie />
+      </div>
+  
+        
+
 
       
 
