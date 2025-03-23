@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Musique from "./components/Musique"
 import Galerie from "./components/Galerie"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 
@@ -34,6 +36,14 @@ function App() {
       <div>
         <Galerie />
       </div>
+
+      <div>
+        <Contact />
+      </div>
+      <div>
+        <Footer />
+      </div>
+
   
         
 
