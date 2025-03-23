@@ -60,6 +60,7 @@ const Navbar = () => {
               <li><a href="#home">Accueil</a></li>
               <li><a href="#about">À propos</a></li>
               <li><a href="#music">Musique</a></li>
+              <li><a href="#galerie">Galerie</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
@@ -76,6 +77,7 @@ const Navbar = () => {
               <li><a href="#home">Accueil</a></li>
               <li><a href="#about">À propos</a></li>
               <li><a href="#music">Musique</a></li>
+              <li><a href="#galerie">Galerie</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
