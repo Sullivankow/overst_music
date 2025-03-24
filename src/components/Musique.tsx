@@ -7,10 +7,10 @@ function Musique() {
     <div className="max-w-5xl mx-auto text-center ">
       
       {/* Titre de la section */}
-      <h2 className="text-4xl font-bold mb-8">Ma musique</h2>
+      <h2 className="text-4xl font-bold mb-8 font-gabarito">Ma musique</h2>
 
       {/* Description de la section */}
-      <p className="text-lg text-black-300 mb-8">
+      <p className="text-lg text-black-300 mb-8 font-gabarito">
         Découvrez mes morceaux disponibles sur Spotify. Écoutez et laissez-vous emporter par l'univers sonore que j'ai créé pour vous.
       </p>
 

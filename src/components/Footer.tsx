@@ -2,16 +2,16 @@
 
 function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-black text-white">
+    <footer className="footer footer-center p-10 bg-black text-white font-gabarito">
   <div>
     <h2 className="text-2xl font-bold">Overst</h2>
-    <p className="font-light text-sm">© {new Date().getFullYear()} Overst - Tous droits réservés</p>
+    <p className="font-light text-sm font-gabarito">© {new Date().getFullYear()} Overst - Tous droits réservés</p>
           </div>
           
 
             {/* Logo centré */}
             <div className="flex justify-center flex-1">
-  <a href="#home" className="text-white  text-4xl hover:text-gray-400 transition duration-300">
+  <a href="#home" className="text-white  text-4xl hover:text-gray-400 transition duration-300 font-gabarito">
     =O=
   </a>
 </div>

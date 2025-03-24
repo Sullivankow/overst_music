@@ -18,8 +18,8 @@ function Galerie() {
   return (
     <section id="galerie" className="w-full min-h-screen bg-black text-white py-16 items-center">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">Ma galerie</h2>
-        <p className="text-lg text-white-600 mb-8">
+        <h2 className="text-4xl font-bold mb-8 font-gabarito">Ma galerie</h2>
+        <p className="text-lg text-white-600 mb-8 font-gabarito">
           Découvrez une sélection de photos et vidéos.
         </p>
 
@@ -61,13 +61,20 @@ function Galerie() {
               className="object-cover w-[300px] h-[300px] rounded"
             />
           </div>
+          <div className="carousel-item">
+            <img
+              src="src\assets\overstdj.jpg"
+              alt="Overst"
+              className="object-cover w-[300px] h-[300px] rounded"
+            />
+          </div>
          
         </div>
 
         {/* Navigation buttons */}
         <div className="flex justify-between mt-8">
-          <button className="btn bg-white text-black carousel-prev">Précédent</button>
-          <button className="btn bg-white text-black carousel-next">Suivant</button>
+          <button className="btn bg-white text-black font-gabarito carousel-prev">Précédent</button>
+          <button className="btn bg-white text-black font-gabarito carousel-next">Suivant</button>
         </div>
       </div>
     </section>

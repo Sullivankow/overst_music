@@ -43,11 +43,11 @@ const Navbar = () => {
         
         {/* Nom de l'artiste à gauche */}
         <div className="flex-1">
-          <a className="text-2xl font-bold ">Øverst</a>
+          <a className="text-2xl  font-gabarito">Øverst</a>
         </div>
 
                  {/* Logo centré */}
-                 <div className="flex justify-center flex-1">
+                 <div className="flex justify-center flex-1 font-gabarito">
   <a href="#music" className="text-white  text-4xl hover:text-gray-400 transition duration-300">
     =O=
   </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex">
-            <ul className="menu menu-horizontal space-x-4">
+            <ul className="menu menu-horizontal space-x-4 font-gabarito">
               <li><a href="#home">Accueil</a></li>
               <li><a href="#about">À propos</a></li>
               <li><a href="#music">Musique</a></li>

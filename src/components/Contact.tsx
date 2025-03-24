@@ -4,14 +4,14 @@ function Contact() {
   return (
     <section id="contact" className="w-full min-h-screen bg-white text-black py-16 px-4">
   <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-4xl font-bold mb-8">Contact & Partenariats</h2>
-    <p className="text-lg text-gray-600 mb-12">
+    <h2 className="text-4xl font-bold mb-8 font-gabarito">Contact & Partenariats</h2>
+    <p className="text-lg text-gray-600 mb-12 font-gabarito">
       Vous souhaitez collaborer ou en savoir plus ? Envoyez-moi un message !
     </p>
 
     <form className="space-y-6 text-left">
       <div>
-        <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nom</label>
+        <label htmlFor="name" className="block text-sm font-medium text-gray-700 font-gabarito">Nom</label>
         <input
           type="text"
           id="name"
@@ -23,7 +23,7 @@ function Contact() {
       </div>
 
       <div>
-        <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+        <label htmlFor="email" className="block text-sm font-medium text-gray-700 font-gabarito">Email</label>
         <input
           type="email"
           id="email"
@@ -35,7 +35,7 @@ function Contact() {
       </div>
 
       <div>
-        <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+        <label htmlFor="message" className="block text-sm font-medium text-gray-700 font-gabarito">Message</label>
         <textarea
           id="message"
           name="message"
@@ -48,7 +48,7 @@ function Contact() {
 
       <button
         type="submit"
-        className="w-full bg-black text-white py-3 px-4 rounded-md hover:bg-gray-800 transition"
+        className="w-full bg-black text-white py-3 px-4 rounded-md hover:bg-gray-800 transition font-gabarito"
       >
         Envoyer
       </button>
