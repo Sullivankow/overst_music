@@ -4,7 +4,7 @@ function About() {
   return (
     <section
     id="about"
-    className="w-full min-h-screen bg-black text-white flex items-center justify-center px-4 py-16"
+    className="w-full min-h-screen text-white flex items-center justify-center px-4 py-16"style={{ backgroundImage: "url('src/assets/bg-vintage7.jpg')" }}
   >
     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
       

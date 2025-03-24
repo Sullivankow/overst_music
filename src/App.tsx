@@ -39,10 +39,9 @@ function App() {
 
       <div>
         <Contact />
+        
       </div>
-      <div>
-        <Footer />
-      </div>
+      
 
   
         

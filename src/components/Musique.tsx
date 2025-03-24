@@ -1,5 +1,5 @@
 
-import overstDj from "../assets/overstdj.jpg"
+import overstDj from "../assets/bg-vintage8.jpg"
 
 function Musique() {
   return (

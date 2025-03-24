@@ -16,7 +16,7 @@ function Galerie() {
   }, []);
 
   return (
-    <section id="galerie" className="w-full min-h-screen bg-black text-white py-16 items-center">
+    <section id="galerie" className="w-full min-h-screen  text-white py-16 items-center"  style={{ backgroundImage: "url('src/assets/bg-vintage9.jpg')" }}>
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8 font-gabarito">Ma galerie</h2>
         <p className="text-lg text-white-600 mb-8 font-gabarito">

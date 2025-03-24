@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <footer className="footer footer-center p-10 bg-black text-white font-gabarito">
+    <footer className="footer footer-center p-10 mb-0 text-white font-gabarito">
   <div>
     <h2 className="text-2xl font-bold">Overst</h2>
     <p className="font-light text-sm font-gabarito">© {new Date().getFullYear()} Overst - Tous droits réservés</p>
