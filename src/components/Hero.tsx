@@ -2,7 +2,7 @@
 
 function Hero() {
   return (
-    <div
+    <div id="home"
     className="hero min-h-screen"
     style={{ backgroundImage: "url('src/assets/landscape.jpg')" }}
   >

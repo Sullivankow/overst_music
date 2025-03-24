@@ -1,5 +1,5 @@
 import { Menu } from "lucide-react";
-import logo from "../assets/logo_b.svg";
+
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
@@ -43,13 +43,15 @@ const Navbar = () => {
         
         {/* Nom de l'artiste à gauche */}
         <div className="flex-1">
-          <a className="text-2xl font-bold">Øverst</a>
+          <a className="text-2xl font-bold ">Øverst</a>
         </div>
 
-        {/* Logo centré */}
-        <div className="flex justify-center flex-1">
-          <img src={logo} alt="Logo Øverst" className="h-16 w-16 object-contain" />
-        </div>
+                 {/* Logo centré */}
+                 <div className="flex justify-center flex-1">
+  <a href="#music" className="text-white  text-4xl hover:text-gray-400 transition duration-300">
+    =O=
+  </a>
+</div>
 
         {/* Menus (Desktop et Mobile) à droite */}
         <div className="flex-1 flex justify-end items-center space-x-4">
