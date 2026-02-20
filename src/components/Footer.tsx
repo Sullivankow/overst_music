@@ -2,10 +2,21 @@
 
 function Footer() {
   return (
-    <footer className="footer footer-center p-10 mb-0 text-white font-gabarito">
+	<footer className="footer footer-center p-10 mb-0 text-white font-gabarito flex flex-col items-center">
   <div>
-    <h2 className="text-2xl font-bold">Overst</h2>
-    <p className="font-light text-sm font-gabarito">© {new Date().getFullYear()} Overst - Tous droits réservés</p>
+    <h2 className="text-2xl font-bold">Øverst</h2>
+		<p className="font-light text-sm font-gabarito">
+			© {new Date().getFullYear()} Overst - Tous droits réservés.
+			<span className="mx-1">|</span>
+			<a
+				href="https://www.facebook.com/profile.php?id=61588422901890&sk=about"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="underline hover:text-blue-400 ml-1"
+			>
+				By SunDev
+			</a>
+		</p>
           </div>
           
 
