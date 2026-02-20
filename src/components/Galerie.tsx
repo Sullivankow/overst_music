@@ -60,14 +60,14 @@ function Galerie() {
           </div>
           <div className="carousel-item">
             <img
-              src="src\assets\overstDj5.jpg"
+              src="/overst_music/assets/overstDj5.jpg"
               alt="Overst"
               className="object-cover w-[300px] h-[300px] rounded"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="src\assets\overstdj.jpg"
+              src="/overst_music/assets/overstdj.jpg"
               alt="Overst"
               className="object-cover w-[300px] h-[300px] rounded"
             />

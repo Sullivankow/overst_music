@@ -3,7 +3,7 @@ import Footer from "./Footer"
 
 function Contact() {
   return (
-    <section id="contact" className="w-full min-h-screen  text-white py-16 px-4" style={{ backgroundImage: "url('src/assets/bg-vintage6.jpg')" }}>
+    <section id="contact" className="w-full min-h-screen  text-white py-16 px-4" style={{ backgroundImage: "url('/overst_music/assets/bg-vintage6.jpg')" }}>
   <div className="max-w-4xl mx-auto text-center">
     <h2 className="text-4xl font-bold mb-8 font-gabarito">Contact & Partenariats</h2>
     <p className="text-lg text-white-600 mb-12 font-gabarito">

@@ -1,9 +1,8 @@
 
-import overstDj from "../assets/bg-vintage8.jpg"
-
+// Utilisation du chemin public pour le déploiement
 function Musique() {
   return (
-    <section id="music" className="w-full min-h-screen bg-cover bg-center text-white flex items-center justify-center px-4 pt-8 pb-16" style={{ backgroundImage: `url(${overstDj})` }}>
+    <section id="music" className="w-full min-h-screen bg-cover bg-center text-white flex items-center justify-center px-4 pt-8 pb-16" style={{ backgroundImage: "url('/overst_music/assets/bg-vintage8.jpg')" }}>
     <div className="max-w-5xl mx-auto text-center ">
       
       {/* Titre de la section */}

@@ -7,7 +7,7 @@ function Hero() {
       className="hero min-h-screen flex flex-col items-center justify-center px-4"
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('src/assets/bg-vintage2.jpg')",
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/overst_music/assets/bg-vintage2.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -26,7 +26,7 @@ function Hero() {
         {/* Vidéo */}
         <div className="max-w-2xl w-full md:max-w-lg">
           <video controls className="rounded-lg shadow-lg w-full">
-            <source src="src/assets/aftermovie.mp4" type="video/mp4" />
+            <source src="/overst_music/assets/aftermovie.mp4" type="video/mp4" />
             Ton navigateur ne supporte pas les vidéos HTML5 😢
           </video>
         </div>
