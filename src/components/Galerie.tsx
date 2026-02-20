@@ -6,17 +6,21 @@ function Galerie() {
     const nextButton = document.querySelector('.carousel-next');
     const carousel = document.querySelector('.carousel');
 
-    prevButton.addEventListener('click', () => {
-      carousel.scrollBy({ left: -300, behavior: 'smooth' });
-    });
+    if (prevButton && carousel) {
+      prevButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: -300, behavior: 'smooth' });
+      });
+    }
 
-    nextButton.addEventListener('click', () => {
-      carousel.scrollBy({ left: 300, behavior: 'smooth' });
-    });
+    if (nextButton && carousel) {
+      nextButton.addEventListener('click', () => {
+        carousel.scrollBy({ left: 300, behavior: 'smooth' });
+      });
+    }
   }, []);
 
   return (
-    <section id="galerie" className="w-full min-h-screen  text-white py-16 items-center"  style={{ backgroundImage: "url('src/assets/bg-vintage9.jpg')" }}>
+    <section id="galerie" className="w-full min-h-screen  text-white py-16 items-center"  style={{ backgroundImage: "url('/overst_music/assets/bg-vintage9.jpg')" }}>
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-8 font-gabarito">Ma galerie</h2>
         <p className="text-lg text-white-600 mb-8 font-gabarito">
@@ -28,28 +32,28 @@ function Galerie() {
           
           <div className="carousel-item">
             <img
-              src="src\assets\overst2.jpg"
+              src="/overst_music/assets/overst2.jpg"
               alt="Overst"
               className="object-cover w-[300px] h-[300px] rounded"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="src\assets\overstDj2.jpg"
+              src="/overst_music/assets/overstDj2.jpg"
               alt="Overst"
               className="object-cover w-[300px] h-[300px] rounded"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="src\assets\overstDj3.jpg"
+              src="/overst_music/assets/overstDj3.jpg"
               alt="Overst"
               className="object-cover w-[300px] h-[300px] rounded"
             />
           </div>
           <div className="carousel-item">
             <img
-              src="src\assets\overstDj4.jpg"
+              src="/overst_music/assets/overstDj4.jpg"
               alt="Overst"
               className="object-cover w-[300px] h-[300px] rounded"
             />

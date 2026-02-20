@@ -4,7 +4,8 @@ import About from "./components/About"
 import Musique from "./components/Musique"
 import Galerie from "./components/Galerie"
 import Contact from "./components/Contact"
-import Footer from "./components/Footer"
+
+import "./App.css"
 
 
 
